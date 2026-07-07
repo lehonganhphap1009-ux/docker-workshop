@@ -1,0 +1,5 @@
+{
+    "name": "Docker Workshop",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu", // hoặc image Python bạn đang dùng
+    "postCreateCommand": "pip install --user -r requirements.txt"
+}
